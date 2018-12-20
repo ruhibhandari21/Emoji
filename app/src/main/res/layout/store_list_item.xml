@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_margin="10dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/colorWhite">
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_demo2"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:background="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvTagTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tag Title"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTagDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tag Description ...."
+            android:textStyle="italic"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/tvTagTitle"
+            android:layout_marginTop="5dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/colorWhite">
+        <ImageView
+            android:id="@+id/imgDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_download"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

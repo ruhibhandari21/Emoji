@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        card_view:cardCornerRadius="4dp"
+        android:background="@color/colorWhite"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/cardSearch"
+        android:elevation="3dp"
+        >
+
+        <Button
+            android:id="@+id/btTag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tag"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorWhite"
+            />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
