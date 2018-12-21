@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Emoji</string>
+    <string name="app_name">Apnaji</string>
     <string name="title_activity_dashboard">Apnaji</string>
-
+    <string name="access_desc">Apnaji app need this settings to be enabled to get the text changed events from other apps.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_store">Sticker store</string>
